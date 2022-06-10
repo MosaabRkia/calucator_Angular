@@ -1,8 +1,9 @@
 .container{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-columns: 24% 24% 24% 24%; 
     width: 15%;
-    height: 50%;
+    height: 70%;
+    margin: 10px;
 }
 .methodContainer{
     width: 5%;
@@ -14,25 +15,36 @@
 }
 .resultBox{
     border: 1px solid black;
-    width: 40%;
+    width: 15%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 7px;
 }
 .cont{
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 140px;
+    align-items: center;
 }
 .stringResult{
-    margin: 0;
-    border: 1px solid black;
-    text-align: end;
+    text-align: center;
     font-size: 25px;
-    height: 40%;
+    height: 50%;
+    border-bottom: 1px solid;
+
 }
 .resultResult{
     margin: 0;
-    border: 1px solid black;
-    text-align: end;
+    text-align: center;
     font-size: 25px;
-    height: 40%;
+    height: 50%;
     width: 95%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.mainContainer{
+   
 }
