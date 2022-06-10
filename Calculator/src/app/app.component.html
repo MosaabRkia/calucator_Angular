@@ -1,0 +1,18 @@
+<div class="cont"> 
+<div class="resultBox">
+  <p class="stringResult">
+      {{resultData.resultString === "" ? "Start Calculating" : resultData.resultString}}
+    </p>
+    <p class="resultResult">
+      {{resultData.total}}
+    </p>
+</div>
+</div>
+<div id="bigContainer"> 
+<div class="container">
+  <app-square *ngFor="let i of calculatorSqaures" [value]="i" (getClickedButton)="updateResult($event)" ></app-square>
+ 
+</div>
+ 
+</div>
+

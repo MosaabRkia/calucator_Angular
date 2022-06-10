@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    width: 15%;
+    height: 50%;
+}
+.methodContainer{
+    width: 5%;
+    height: 20%;
+}
+#bigContainer{
+    display: flex;
+    justify-content: center;
+}
+.resultBox{
+    border: 1px solid black;
+    width: 40%;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.stringResult{
+    margin: 0;
+    border: 1px solid black;
+    text-align: end;
+    font-size: 25px;
+    height: 40%;
+}
+.resultResult{
+    margin: 0;
+    border: 1px solid black;
+    text-align: end;
+    font-size: 25px;
+    height: 40%;
+    width: 95%;
+}
